@@ -20,8 +20,8 @@ WORKDIR /home/${USER}
 USER root
 ENV SQOOP_HOME /usr/local/sqoop
 
-RUN curl -L -k1 -s https://www-us.apache.org/dist/sqoop/1.4.7/sqoop-1.4.7.bin__hadoop-2.6.0.tar.gz | tar -xz -C /usr/local
-RUN ln -s /usr/local/sqoop-1.4.7.bin__hadoop-2.6.0 $SQOOP_HOME
+RUN curl -L -k1 -s archive.apache.org/dist/sqoop/1.4.6/sqoop-1.4.6.bin__hadoop-2.0.4-alpha.tar.gz | tar -xz -C /usr/local
+RUN ln -s /usr/local/sqoop-1.4.6.bin__hadoop-2.0.4-alpha $SQOOP_HOME
 
 ENV PATH $PATH:$SQOOP_HOME/bin
 
