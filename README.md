@@ -100,8 +100,7 @@ insert into users values (5, 'Hello Sqoop');
 insert into users values (6, 'Chestnut1717');
 ```
 
-### 테이블을 생성했으면, docker 명령어 입력하기 위해 command창으로 돌아오기(
-(cmd)+ C or D)
+### 테이블을 생성했으면, docker 명령어 입력하기 위해 command창으로 돌아오기(cmd)+ C or D)
 
 ---
 
